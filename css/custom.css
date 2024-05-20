@@ -1,0 +1,40 @@
+body {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+table {
+  table-layout: fixed;
+}
+
+thead th {
+  text-align: left;
+  background-color: red;
+  color: white;
+}
+
+tbody td {
+  text-align: left;
+}
+
+.btn-primary {
+  background-color: red;
+  border-color: red;
+}
+
+.btn-primary:hover {
+  background-color: #990000; /* Slightly darker red on hover */
+  border-color: #990000;
+}
